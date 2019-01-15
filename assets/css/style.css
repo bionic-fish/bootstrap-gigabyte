@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* padding-top: 30px; */
+    font-size: 16px;
+    font-family: 'Karla', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Sarabun', sans-serif !important;
+    font-weight: bolder;
+    text-transform: uppercase !important;
+    text-align: center;
+}
+.colorClass {
+    color:orange;
+}
+p {
+    font-size: 1.3em;
+}
+/* top nav bar */
+.navbar a {
+    color: #fff !important;
+    font-weight: bold;
+    /* margin-right: -5px; */
+}
+.navbar a:hover {
+    border-bottom: 3px solid orange;
+    color: orange;
+    font-weight: bolder;
+}
+.navbar-default {
+    background: #333 !important;
+    border: 0;
+}
+.navbar-brand {
+    font-size: 18px;
+    color: #fff !important;
+    font-weight: bold;
+}
+#showcase h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+    text-align: center;
+}
+#showcase img,
+img {
+    width: 90%;
+    max-width: 500px;
+    /* height: 450px; */
+    margin: auto;
+   
+}
+#showcase p {
+    margin-top: 50px;
+}
+#showcase .showcase-right {
+    margin-top: 90px;
+}
+#testimonial {
+    background: #f1f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#testimonial p {
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'Slabo 27px', serif !important;
+    color: #333;
+    
+}
+#testimonial p.customer {
+    font-size: 20px;
+    color: #666; 
+}
+#performance {
+    background-color: #333;
+    color: #fff;
+}
+#performance img {
+    margin: 20px auto;
+}
+#info1 .info-right {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#info2 {
+    margin: 20px 0 60px 0;
+}
+#info3 {
+    margin: 20px 0 60px 0;
+}
+#contact {
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    /* border-top: #333 7px solid;
+    border-bottom: #333 7px solid; */
+}
+#contact form {
+    margin-top: 10px;
+    border-right: 5px solid #fff;
+    padding-right: 100px;
+}
+#contact h2 {
+    /* text-align: left; */
+    font-family: 'Karla', sans-serif !important;
+    font-weight: bold;
+}
+#contact img {
+    margin-top: 0;
+}
+footer {
+    padding: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    #contact form {
+        margin-top: 10px;
+        border:none;
+        padding: 0;
+    }
+}
